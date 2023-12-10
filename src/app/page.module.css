@@ -1,0 +1,23 @@
+.main {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f0e6f6; /* A light pastel purple background */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Press Start 2P', cursive; /* Retro pixel font */
+  font-size: 48px; /* Large font size for emphasis */
+  color: #ffafcc; /* Pastel pink color for the text */
+  text-shadow: 3px 3px 0 #bde0fe; /* Adding a shadow for a bit of depth */
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: #a0c4ff; /* Another pastel color for the description */
+}
