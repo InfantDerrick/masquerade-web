@@ -1,7 +1,7 @@
 import styles from './page.module.css';
 import Image from 'next/image';
 
-export default function Home() {
+const Home = () => {
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>Coming Soon</h1>
@@ -11,3 +11,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home;
