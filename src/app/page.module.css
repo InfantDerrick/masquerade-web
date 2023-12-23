@@ -1,7 +1,6 @@
 .main {
-  text-align: center;
   padding: 50px 20px;
-  background-color: #f0e6f6; /* A light pastel purple background */
+  background-color: #292E40; 
   height: 100vh;
   display: flex;
   flex-direction: column;
