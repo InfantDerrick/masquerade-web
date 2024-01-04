@@ -1,10 +1,14 @@
+@font-face {
+  font-family: Cardo;
+  src: url("../fonts/Cardo/Cardo-Regular.ttf");
+}
+@font-face {
+  font-family: Pinyon-Script;
+  src: url("../fonts/PinyonScript-Regular.ttf");
+}
+
 .main {
-  padding: 50px 20px;
   background-color: #292E40; 
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .title {
@@ -16,7 +20,64 @@
 }
 
 .description {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
-  color: #a0c4ff; /* Another pastel color for the description */
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Cardo";
+  font-size: 35px;
+  color: #ffffff; /* Another pastel color for the description */
+}
+
+.page_title{
+  font-family: "Pinyon-Script";
+  font-size: 96px;
+  color: #FFBF85;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.corner_botright{
+  margin: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.corner_botleft{
+  margin: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: rotate(90deg);
+}
+
+.corner_topleft{
+  margin: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.corner_topright{
+  margin: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: rotate(-90deg);
+}
+
+.flower_embellish_bottom{
+  position: absolute;
+  left: 50%; /* Center the element */
+  bottom: 0; /* Align it to the bottom */
+  transform: translateX(-50%); /* Offset by half the element's width */
+  margin-bottom: 15px;
+}
+
+.flower_embellish_top{
+  position: absolute;
+  left: 50%; /* Center the element */
+  top: 0; /* Align it to the bottom */
+  transform: translateX(-50%); /* Offset by half the element's width */
+  margin-top: 15px;
 }
