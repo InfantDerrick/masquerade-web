@@ -1,8 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
-import { HostProps } from "../Meow/types"
 import styles from "../../app/page.module.css"
+import { PropsWithChildren } from "react";
 
-const BorderTitle = ({title} : HostProps) =>{
+const BorderTitle = ({children} : PropsWithChildren) =>{
     return(
         <main className={styles.main}>
             <img src="/flower_embellish_down.png" className={styles.flower_embellish_top} alt=""></img>
@@ -11,7 +10,7 @@ const BorderTitle = ({title} : HostProps) =>{
             <img src="/corner.png" className={styles.corner_topright} alt=""></img>
             <img src="/corner.png" className={styles.corner_botleft}alt="" ></img>
             <img src="/corner.png" className={styles.corner_botright} alt=""></img>
-            <p className={styles.page_title}>{title}</p>
+            <p className={styles.page_title}>{children}</p>
         </main>
     )
 }
